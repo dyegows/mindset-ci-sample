@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - "7"
+deploy:
+  provider: heroku
+  api_key: 2347d8c6-23a7-42b1-81bc-d58bbeb4b1ad
+  app: mindset-sample
