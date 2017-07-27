@@ -1,0 +1,1 @@
+# mindset-ci-sample
