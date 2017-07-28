@@ -5,9 +5,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.post('/sum', (req, res) => {
-  //const { a, b } = req.body;
-  const a = req.body.a;
-  const b = req.body.b;
+  const { a, b } = req.body;
   const result = a + b;
 
   res.status(200).send({ result });
